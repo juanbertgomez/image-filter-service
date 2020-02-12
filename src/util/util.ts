@@ -1,5 +1,5 @@
 import fs from "fs";
-import * as Jimp from "jimp";
+import Jimp from "jimp";
 
 // filterImageFromURL
 // helper function to download, filter, and save the filtered image locally
