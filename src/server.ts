@@ -36,7 +36,7 @@ import { filterImageFromURL, deleteLocalFiles } from "./util/util";
     res.send("try GET /filteredimage?image_url={{}}");
   });
 
-  app.post(
+  app.get(
     "/filteredimage/",
     async (req: express.Request, res: express.Response) => {
       const { image_url } = req.query;
